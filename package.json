@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "start": "python app.py"
+    "build": "webpack --progress",
+    "start": "python app.py",
+    "watch": "webpack --progress --watch"
   },
   "author": "",
   "license": "ISC",
