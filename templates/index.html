@@ -3,7 +3,6 @@
 
 <body>
   <div id="reactEntry"></div>
-
   <!-- Attach React components -->
-  <script type="text/javascript" src="{{ url_for('static', filename='bundle.js') }}"></script>
+  <script type="text/javascript" src="static/bundle.js?v={{ range(-100000000, 100000000) | random }}"></script>
 </body>
